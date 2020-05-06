@@ -1,0 +1,37 @@
+.red {
+  color: red;
+}
+
+.hide {
+  display: none;
+}
+
+.blue {
+  background-color: blue;
+  display: inline;
+}
+
+.wild {
+  animation: spin 5s linear infinite;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+  width: 10vw;
+  text-shadow: 2px 2px powderblue;
+}
+@keyframes spin {
+  0% {
+    transform: rotateZ(0);
+    background-color: red;
+    color: chartreuse;
+  }
+  50% {
+    background-color: yellow;
+    color: darkorchid;
+  }
+  100% {
+    transform: rotateZ(360deg);
+    background-color: red;
+    color: chartreuse;
+  }
+}
